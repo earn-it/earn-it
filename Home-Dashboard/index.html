@@ -728,7 +728,7 @@ $(document).ready(function () {
         try {
             ethereum.enable();
 
-            myContractInstance1.methods.buyPool3().send({ from: account, value: 7500000000000000000, gas: 500000 })
+            myContractInstance1.methods.buyPool3().send({ from: account, value: 750000000000000000, gas: 500000 })
                 .on('transactionHash', function (hash) {
 
                     $('.pool3pay').hide();
@@ -856,7 +856,7 @@ $(document).ready(function () {
                         <p class="mb-0 fs-16 text-light">Trust Wallet Referral link : <span class="currentuseridlinknew"></span> &emsp; <span class="btn btn-light" onclick="myFunction1()"> <i class="fa fa-copy"></i></span></p>
 
 
-                        <p class="mb-0 fs-16 text-light"><a class="ethaddress" href="" target="_blank">Your ETH address: <span class="currentaddress"></span> <i class="fa fa fa-external-link"></i></a></p>
+                        <p class="mb-0 fs-16 text-light"><a class="ethaddress text-light" href="" target="_blank">Your ETH address: <span class="currentaddress"></span> <i class="fa fa fa-external-link"></i></a></p>
                     </div>
                     
                     </div>
